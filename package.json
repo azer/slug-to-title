@@ -1,0 +1,27 @@
+{
+  "name": "slug-to-title",
+  "version": "0.0.0",
+  "description": "Generate a title from given slug",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "slug",
+    "title",
+    "capitalize"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/slug-to-title.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "to-title-case": "~0.1.2",
+    "trim": "0.0.1"
+  }
+}
