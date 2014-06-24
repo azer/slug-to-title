@@ -1,4 +1,4 @@
-var toTitleCase = require("to-title-case");
+var toTitleCase = require("to-title");
 var trim = require("trim");
 
 module.exports = slugToTitle;

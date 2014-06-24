@@ -21,7 +21,7 @@
   "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD",
   "dependencies": {
-    "to-title-case": "~0.1.2",
+    "to-title": "0.0.0",
     "trim": "0.0.1"
   }
 }

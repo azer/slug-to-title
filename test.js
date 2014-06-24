@@ -1,8 +1,10 @@
+var test = require('prova');
 var slugToTitle = require("./");
 
-it('generates a title from slug', function(){
-  expect(slugToTitle('hello-world')).to.equal('Hello World');
-  expect(slugToTitle('hello-')).to.equal('Hello');
-  expect(slugToTitle('span_eggs')).to.equal('Span Eggs');
-  expect(slugToTitle('123-foo____bar.qux,corge_hello-world-span;eggs')).to.equal('123 Foo Bar. Qux, Corge Hello World Span; Eggs');
+test('generates a title from slug', function(t){
+  t.plan(4)
+  t.equal(slugToTitle('hello-world'), 'Hello World');
+  t.equal(slugToTitle('hello-'), 'Hello');
+  t.equal(slugToTitle('span_eggs'), 'Span Eggs');
+  t.equal(slugToTitle('123-foo____bar.qux,corge_hello-world-span;eggs'), '123 Foo Bar. Qux, Corge Hello World Span; Eggs');
 });
