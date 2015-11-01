@@ -2,7 +2,7 @@ var test = require('prova');
 var slugToTitle = require("./");
 
 test('generates a title from slug', function(t){
-  t.plan(4)
+  t.plan(4);
   t.equal(slugToTitle('hello-world'), 'Hello World');
   t.equal(slugToTitle('hello-'), 'Hello');
   t.equal(slugToTitle('span_eggs'), 'Span Eggs');

@@ -1,4 +1,4 @@
-## slug-to-title [![Build Status](https://travis-ci.org/azer/slug-to-title.png)](https://travis-ci.org/azer/slug-to-title)
+## slug-to-title
 
 Generate a title from given slug
 
